@@ -34,7 +34,6 @@ body {
   max-width: 450px;
   max-width: 830px;
   box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
-  width: 830px;
   overflow: hidden;
   margin-left: auto;
   margin-right: auto;
@@ -50,6 +49,14 @@ body {
   display: none;
 }
 
+p {
+  text-align: left;
+  color: brown;
+  padding: 0rem;
+  
+  
+}
+
 /*---quiz-header padding ---*/
 .my-quiz-header {
   padding: 1rem;
@@ -59,4 +66,51 @@ h2 {
   padding: 1rem;
   text-align: left;
   margin: 0;
+}
+
+/* --- list style --- */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+ul li label {
+  cursor: pointer;
+}
+
+/*---Button css style ---*/
+button {
+  background-color: green;
+  color: white;
+  border: none;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-family: inherit;
+  padding: 1.4rem;
+  
+}
+
+/*--- Button hover color ---*/
+button:hover {
+  background-color: aquamarine;
+}
+
+/*--- button focus color ---*/
+button:focus {
+  outline: none;
+  background-color: green;
+}
+
+/* Media query for large and landscape mobile phone (from 576px and up) */
+@media (max-width: 320px) {
+  .quiz-box {
+      height: 70vh;
+  }
 }

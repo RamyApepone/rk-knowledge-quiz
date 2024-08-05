@@ -18,34 +18,40 @@
   <!--Welcome screen-->
   <section class="welcome-quiz">
     <p> Welcome to RK Knowledge Quiz</p>
+    <p>Read the instructions</p>
+    <p> 1. You can't change the answer once you submit</p>
+    <p> 2. You can't exit the quiz</p>
+    <p> 3. You will get point base on the right answer</p>
+    <p> Good Luck </p>
   </section>
-  <section class="rkQuiz-area"> best of luck with your quiz questions</section>
+  <section class="rkQuiz-area"> 
+  <!--Quiz Questions list-->
+    <ul>
+      <li>
+        <input type="radio" name="answer" id="1" class="answer">
+        <label for="1" id="first">Answer</label>
+      </li>
+      <li>
+        <input type="radio" name="answer" id="2" class="answer">
+        <label for="2" id="second">Answer</label>
+      </li>
+      <li>
+        <input type="radio" name="answer" id="3" class="answer">
+        <label for="3" id="third">Answer</label>
+      </li>
+      <li>
+        <input type="radio" name="answer" id="4" class="answer">
+        <label for="4" id="fourth">Answer</label>
+      </li>
+    </ul>
+    <div class="quiz-box" id="quiz">
+      <div class="my-quiz-header">
+      </div>
+      <!--Submit button-->
+      <button id="submit">Submit Now</button>
+   </div>
+  </section>
   <button onclick="startQuiz">Start Quiz</button>
-  <div class="quiz-box" id="quiz">
-       <div class="my-quiz-header">
-          <!--Quiz Questions list-->
-          <ul>
-            <li>
-              <input type="radio" name="answer" id="1" class="answer">
-              <label for="1" id="first">Answer</label>
-            </li>
-            <li>
-              <input type="radio" name="answer" id="2" class="answer">
-              <label for="2" id="second">Answer</label>
-            </li>
-            <li>
-              <input type="radio" name="answer" id="3" class="answer">
-              <label for="3" id="third">Answer</label>
-            </li>
-            <li>
-              <input type="radio" name="answer" id="4" class="answer">
-              <label for="4" id="fourth">Answer</label>
-            </li>
-          </ul>
-       </div>
-       <!--Submit button-->
-       <button id="submit">Submit Now</button>
-  </div>
   <!--Connect JavaScript file-->
   <script src="assets/js/script.js"></script>
 </body>
