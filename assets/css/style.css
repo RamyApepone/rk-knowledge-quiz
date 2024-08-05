@@ -49,3 +49,14 @@ body {
 .rkQuiz-area {
   display: none;
 }
+
+/*---quiz-header padding ---*/
+.my-quiz-header {
+  padding: 1rem;
+}
+
+h2 {
+  padding: 1rem;
+  text-align: left;
+  margin: 0;
+}
