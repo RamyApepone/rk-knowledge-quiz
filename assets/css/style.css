@@ -13,3 +13,23 @@ body {
   color: black;
   text-align: left;
 }
+
+/*---- Heading ---- */
+.heading {
+  text-align: center;
+  font-size: 2.1rem;
+}
+
+/* ----Adding css style to quiz-box ----*/
+.quiz-box {
+  background-color: silver;
+  border-radius: 10px;
+  max-width: 450px;
+  max-width: 830px;
+  box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+  width: 830px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0cm;
+}
