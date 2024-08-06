@@ -51,10 +51,8 @@ body {
 
 p {
   text-align: left;
-  color: brown;
   padding: 0rem;
-  
-  
+  color: red;
 }
 
 /*---quiz-header padding ---*/
