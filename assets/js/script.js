@@ -1,3 +1,4 @@
+// create const quiz question inforamtions 
 const quizInfo = [
     {
         question: "1.What country has the highest life expenctancy?",
@@ -82,6 +83,7 @@ const quizInfo = [
  
  ];
 
+ // create const to get element from html
 const quiz = document.getElementById('quiz')
 const answerElements = document.querySelectorAll('.answer')
 const questionElement = document.getElementById('question')
@@ -90,9 +92,12 @@ const second = document.getElementById('second')
 const third = document.getElementById('third')
 const fourth = document.getElementById('fourth')
 const submitBtn = document.getElementById('submit')
+
+//create variable and the value
 let newQuiz = 0
 let score = 0
 
+// create function loadquiz to get quiz questions
 loadQuiz()
 
 function loadQuiz() {
@@ -105,6 +110,7 @@ function loadQuiz() {
     fourth.innerText = newQuizInfo.d
 }
 
+// create start quiz function
 function startQuiz() {
     let welcomeQuiz = document.getElementById("welcome-quiz");
     let rkQuizArea = document.getElementById("rkQuiz-area");
@@ -113,10 +119,12 @@ function startQuiz() {
     rkQuizArea.style.display = "block"; 
   }
 
+// function to checked answer
   function deselectAnswers() {
     answerElements.forEach(answerElement => answerElement.checked = false)
   }
 
+// function to select answer
   function getSelected() {
     let answer
     answerElements.forEach(answerElement => {
@@ -127,6 +135,7 @@ function startQuiz() {
     return answer
   }
 
+// submit action
   submitBtn.addEventListener('click',() =>{
     const answer = getSelected()
     if(answer) {
