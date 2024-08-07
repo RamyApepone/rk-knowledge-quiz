@@ -41,18 +41,18 @@ body {
 }
 
 /*---- Welcome quiz area ---- */
-.welcome-quiz {
-  display: block;
+#welcome-quiz {
+  display:block;
 }
 
-.rkQuiz-area {
+#rkQuiz-area {
   display: none;
 }
 
 p {
-  text-align: left;
+  text-align: center;
+  font-size:x-large;
   padding: 0rem;
-  color: red;
 }
 
 /*---quiz-header padding ---*/

@@ -16,43 +16,39 @@
       <img class="logo" src="assets/images/quiz.png" alt="logo"> Knowledge Quiz
   </h1>
   <!--Welcome screen-->
-  <section class="welcome-quiz">
-    <p> Welcome to RK Knowledge Quiz</p>
-    <p>Read the instructions</p>
-    <p> 1. You can't change the answer once you submit</p>
-    <p> 2. You can't exit the quiz</p>
-    <p> 3. You will get point base on the right answer</p>
-    <p> Good Luck </p>
+  <section id="welcome-quiz">
+    <p>Welcome to Rk Quiz best of luck</p>
   </section>
-  <section class="rkQuiz-area"> 
-  <!--Quiz Questions list-->
-  <h2 id="question">Question Text</h2>
-    <ul>
-      <li>
-        <input type="radio" name="answer" id="a" class="answer">
-        <label for="a" id="first">Answer</label>
-      </li>
-      <li>
-        <input type="radio" name="answer" id="b" class="answer">
-        <label for="b" id="second">Answer</label>
-      </li>
-      <li>
-        <input type="radio" name="answer" id="c" class="answer">
-        <label for="c" id="third">Answer</label>
-      </li>
-      <li>
-        <input type="radio" name="answer" id="d" class="answer">
-        <label for="d" id="fourth">Answer</label>
-      </li>
-    </ul>
-    <div class="quiz-box" id="quiz">
-      <div class="my-quiz-header">
-      </div>
-      <!--Submit button-->
-      <button id="submit">Submit Now</button>
-   </div>
+  <section id="rkQuiz-area">
+  <!--quiz box-->
+  <div class="quiz-box" id="quiz">
+    <div class="my-quiz-header">
+      <!--Questions list-->
+      <h2 id="question">Question Text</h2>
+      <ul>
+        <li>
+          <input type="radio" name="answer" id="a" class="answer">
+          <label for="a" id="first">Answer</label>
+        </li>
+        <li>
+          <input type="radio" name="answer" id="b" class="answer">
+          <label for="b" id="second">Answer</label>
+        </li>
+        <li>
+          <input type="radio" name="answer" id="c" class="answer">
+          <label for="c" id="third">Answer</label>
+        </li>
+        <li>
+          <input type="radio" name="answer" id="d" class="answer">
+          <label for="d" id="fourth">Answer</label>
+        </li>
+      </ul>
+    </div>
+    <!--Submit button-->
+    <button id="submit">Submit</button>
+  </div>
   </section>
-  <button onclick="startQuiz">Start Quiz</button>
+  <button onclick="startQuiz()">Start Quiz</button>
   <!--Connect JavaScript file-->
   <script src="assets/js/script.js"></script>
 </body>

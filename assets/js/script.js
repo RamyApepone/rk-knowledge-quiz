@@ -89,6 +89,7 @@ const first = document.getElementById('first')
 const second = document.getElementById('second')
 const third = document.getElementById('third')
 const fourth = document.getElementById('fourth')
+const submitBtn = document.getElementById('submit')
 let newQuiz = 0
 let score = 0
 
@@ -98,17 +99,48 @@ function loadQuiz() {
     deselectAnswers()
     const newQuizInfo = quizInfo[newQuiz]
     questionElement.innerText = newQuizInfo.question
-    first.innerText.newQuizInfo.a
-    second.innerText.newQuizInfo.b
-    third.innerText.newQuizInfo.c
-    fourth.innerText.newQuizInfo.d
+    first.innerText = newQuizInfo.a
+    second.innerText = newQuizInfo.b
+    third.innerText = newQuizInfo.c
+    fourth.innerText = newQuizInfo.d
 }
 
 function startQuiz() {
-    let welcomeScreen = document.getElementsByClassName("welcome-quiz");
-    let playArea = document.getElementsByClassName("rkQuiz-area");
+    let welcomeQuiz = document.getElementById("welcome-quiz");
+    let rkQuizArea = document.getElementById("rkQuiz-area");
   
-    welcomeScreen.style.display = none;
-    playArea.style.display = block; 
+    welcomeQuiz.style.display = "none";
+    rkQuizArea.style.display = "block"; 
   }
-  
+
+  function deselectAnswers() {
+    answerElements.forEach(answerElement => answerElement.checked = false)
+  }
+
+  function getSelected() {
+    let answer
+    answerElements.forEach(answerElement => {
+        if(answerElement.checked) {
+            answer = answerElement.id
+        }
+    })
+    return answer
+  }
+
+  submitBtn.addEventListener('click',() =>{
+    const answer = getSelected()
+    if(answer) {
+        if(answer === quizInfo[newQuiz].correct) {
+            score++
+        }
+        newQuiz++
+        if(newQuiz < quizInfo.length) {
+            loadQuiz()
+        } else {
+            quiz.innerHTML = `
+            <h2>You answered ${score}/${quizInfo.length} Congratulation you complete the quiz</h2>
+            <button onclick="location.reload()">Click to restart</button>
+            `
+        }
+    }
+  })
