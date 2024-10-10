@@ -40,17 +40,17 @@ RK Knowledge Quiz the website is user friendly, User can do the Quiz from differ
 ### Existing Features
 * First Page shows the quiz name and the welcome message
 
-![Welcome page](assets/images/welcomepage.png)
+![Welcome page](assets/images/welcome.png)
 
 * This the quiz area where users can see the quiz questions
 
-![Quiz area](assets/images/quizarea.png)
+![Quiz area]()
 
 * Quiz Results
 
 After completing the quiz users will get a congratulation message
 
-![quiz Results](assets/images/quizresult.png)
+![quiz Results]()
 
 # Design
 * Color scheme
@@ -87,7 +87,7 @@ Validator used w3c Markup, w3c CSS
 <summary>index.html
 </summary>
 
-![Main page result](assets/images/completed.png)
+![Main page result]()
 
 </details>
 
@@ -95,7 +95,7 @@ Validator used w3c Markup, w3c CSS
 <summary>style.css
 </summary>
 
-![Main page result](assets/images/cssvalid.png)
+![Main page result]()
 </details>
 
 ### Mobile report
@@ -103,7 +103,7 @@ Validator used w3c Markup, w3c CSS
 <summary>Main page
 </details>
 
-![Website performance report](assets/images/performance.png)
+![Website performance report]()
 
 * Unifixed Bug 
 No errors where found
