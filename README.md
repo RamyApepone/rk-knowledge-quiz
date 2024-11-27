@@ -108,7 +108,7 @@ Validator used w3c Markup, w3c CSS
 * Unifixed Bug 
 No errors where found
 
-### Deployment and local development 
+## Deployment and local development 
 
 By forking the repository, we make a copy of the original repository on our GitHub account to view and change without affecting the original repository by using these steps:
 
