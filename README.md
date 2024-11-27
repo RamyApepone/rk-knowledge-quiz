@@ -1,146 +1,92 @@
 # RK Knowledge Quiz
+
 This Quiz is designed to help users expand or refresh their knowlege of culture, sports, countries and more. It's a fun and engaging quiz for both parents and children to enjoy together.
+
+RK Quiz is a site that aims to demonstrate how pure JavaScript can be effectively utilized in a real-world context. The site is targeted towards individuals who not only love to implement more advanced JavaScript concepts but also test their general knowledge.
 
 ![Responsive image](assets/images/landing.png)
 
-[Click Here to view RK Knowledge Quiz](https://ramyapepone.github.io/rk-knowledge-quiz/)
----
-## Table of contents
-### [User Experience (UX)](#user-experience-ux)
-* [User Storie](#user-stories)
+## Features
 
-### [Feature](#Feautures)
-* [Existing Feature](#Existing-Features)
-### [Design](#desing)
-### [Technology used](#technologies-used)
-### [Framework,Libraries and language used](#frameworkslibraries-and-language-used)
-### [Testing](#testing-1)
-* [Validation Results](#validation-results)
-* [Manual Testing](#manual-testing)
-* [Website Report](#report)
-
-### [Deployement and local development](#deployement-and-local-development)
-* [GitHub Pages](#github-pages)
-* [forking the Github Respository](#forking-the-github-respository)
-* [Local clone](#local-clone)
-### [Credits](#credits)
-### [Aknowledgement](#aknowledgement)
-
-RK Knowledge Quiz the website is user friendly, User can do the Quiz from different devices.
-
-### User Stories
-* What to expect for the first time visit the quiz
-* user will see the welcome page.
-* User can click to start quiz button.
-* Friendly Quiz website
-
-## Feature
-* Responsive website
+Responsive site. The quiz site is designed to be fully responsive, ensuring a seamless user experience across various devices and screen sizes.
 
 ### Existing Features
-* First Page shows the quiz name and the welcome message
 
-![Welcome page](assets/images/welcome.png)
+- __RK Knowledge Quiz Logo and heading__
 
-* This the quiz area where users can see the quiz questions
+  - The logo is at the top of the page easy to see. This allow the users to see the logo and the name of the quiz.
 
-![Quiz area]()
+![Logo](assets/images/logo.png)
 
-* Quiz Results
+- __Welcome__
 
-After completing the quiz users will get a congratulation message
+  - This is the welcome page. This page will allow the user the begin the quiz by clicking the start butto. and also display the best luck message. 
 
-![quiz Results]()
+![Logo](assets/images/welcome.png)
 
-# Design
-* Color scheme
-* sky blue, White, Green, Grey
+- __Quiz Area__
 
-* Wireframes
-* I used pen and paper to design my quiz website
+  - This section will allow the user to see the quiz questions. 
+  - The users will be able to do the quiz and to select the answer after reading the quiz question. 
 
-# technologies used
- * [HTML5](https://en.wikipedia.org/wiki/HTML)
- * [CSS](https://en.wikipedia.org/wiki/CSS)
- * [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+![Logo](assets/images/quizArea.png)
 
-## Framework, Libraries and language used
+- __Result__
 
-* [visual Studio Code](https://code.visualstudio.com/)
+  - This section will allow the user to see the quiz result after submitting the all the answers.  
 
-* I used visual studio code to write my code
+![Logo](assets/images/result.png)
 
-* [Git](https://git-scm.com/)
-* [Github](https://github.com/)
-* [Font Awesome](https://fontawesome.com/)
+### Features left Implement 
 
-Where I got my quiz website font
+There are several features that could enhance the user experience and functionality of the site. Here are some potential features to consider implementing.
 
-## Testing 
+ - Mobile App versions
+ - Random questions
+ - Timed Quizzes : implement a timer for each quiz questions.
+ - Leaderboard : introduce a leaderboard that will display top score.
 
-Validator used w3c Markup, w3c CSS
+ ### Testing 
 
-* [W3C Markup Validator](https://validator.w3.org/)
-* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+ used different website to test all my code html, css, javascript code. 
 
-<details>
-<summary>index.html
-</summary>
+ ### Validar Testing 
 
-![Main page result]()
+ - HTML
+     - No error were found when testing
+     [W3C Markup Validator](assets/images/htmlValidation.png)
 
-</details>
+- CSS
+     - No error were found when testing 
+     [Jigsaw Validator](assets/images/cssValidation.png)
 
-<details>
-<summary>style.css
-</summary>
+- Javascript 
+    - No errors were found when testing my javascript code from the official [Jshint validator](https://jshint.com/)
 
-![Main page result]()
-</details>
+    - This the metrics we got from the testing: 
 
-### Mobile report
-<details>
-<summary>Main page
-</details>
+    - There are 7 functions in this file.
 
-![Website performance report]()
+    - Function with the largest signature take 1 
+    arguments, while the median is 0.
 
-* Unifixed Bug 
-No errors where found
+    - Largest function has 8 statements in it, while the median is 3.
 
-## Deployment and local development 
+    - The most complex function has a cyclomatic complexity value of 4 while the median is 1.
 
-By forking the repository, we make a copy of the original repository on our GitHub account to view and change without affecting the original repository by using these steps:
+### Unfixed Bugs
 
-1. Log in to GitHub and locate [GitHub Repository RK Knowledge Quiz](https://ramyapepone.github.io/rk-knowledge-quiz/)
+No bugs
 
-2. At the top of the Repository(under the main navigation) locate "Fork" button.
+### Deployment
 
-3. Now you should have a copy of the original repository in your GitHub account.
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+Click here to see the live project [GitHub Repository RK Knowledge Quiz](https://ramyapepone.github.io/rk-knowledge-quiz/)
 
 ### Local clone
 
-1. Log in to GitHub and locate [GitHubRepository RK Knowledge Quiz](https://github.com/RamyApepone/rk-knowledge-quiz.git)
-
-2. Under the repository name click "Clone or download"
-
-3. Click on the code button, select clone with HTTPS, SSH or GitHub CLI and copy the link shown.
-
-4. Open Git Bash
-
-5. Change the current working directory to the location where you want the cloned directory to be made.
-
-6. Type `git clone` and then paste The URL copied in the step 3.
-7. Press Enter and your local clone will be created.
-
-# Credits
-Code institute
-
-Fontawesome
-
-canva.com 
-
-w3School
-
-# Aknowledgement
-My mentor Mitko for all support during my project
+1. Log in to GitHub and locate [GitHubRepository RK Knowledge Quiz]()
