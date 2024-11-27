@@ -50,7 +50,7 @@ There are several features that could enhance the user experience and functional
 
  used different website to test all my code html, css, javascript code. 
 
- ### Validar Testing 
+ ### Validator Testing 
 
  - HTML
      - No error were found when testing
@@ -89,4 +89,24 @@ Click here to see the live project [GitHub Repository RK Knowledge Quiz](https:/
 
 ### Local clone
 
-1. Log in to GitHub and locate [GitHubRepository RK Knowledge Quiz]()
+1. Log in to GitHub and locate [GitHubRepository RK Knowledge Quiz](https://github.com/RamyApepone/rk-knowledge-quiz.git)
+
+## Credit 
+
+- Code institute used some idea from Love math
+
+
+- Fontawesome
+
+
+- canva.com
+
+
+- w3School 
+
+### content
+
+[Used google Fonts](https://fonts.google.com/) 
+
+# Aknowledgement
+My mentor Mitko for all support during my project
